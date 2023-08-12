@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#list-container {
+  @apply container max-w-[840px] mx-auto py-2 mt-2;
+}
+.buttons-container {
+  @apply space-x-2;
+}
+.stars {
+  @apply bg-slate-800 px-2 py-1 rounded-md;
+}
+.link {
+  @apply bg-red-900 px-6 py-1 rounded-md;
+}
+.list {
+  @apply text-white flex justify-between bg-[#3D3A4E] py-3 px-4 rounded-xl mt-4;
+}

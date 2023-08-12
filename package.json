@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "name": "fetch-reposetories",
+  "version": "1.0.0",
+  "description": "A simple fetch repositories application",
+  "main": "./dist/main.js",
+  "author": "",
+  "license": "ISC"
+}
