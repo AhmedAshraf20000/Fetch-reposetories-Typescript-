@@ -1,6 +1,6 @@
 # Project Title
 
-Fech Repositories
+Fetch Repositories
 
 ## Getting Started
 
